@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>680</width>
+    <width>700</width>
     <height>400</height>
    </rect>
   </property>
@@ -34,9 +34,11 @@
      <widget class="QFrame" name="dropShadowFrame">
       <property name="styleSheet">
        <string notr="true">QFrame {	
-	background-color:#0f111e;
-	border-radius: 10px;
-}</string>
+	background-color:#2d2d31;
+	border-radius: 5px;
+}
+
+/* #a8a192 */</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -56,15 +58,15 @@
        <property name="font">
         <font>
          <family>Nasalization Rg</family>
-         <pointsize>50</pointsize>
+         <pointsize>40</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #00dc82;
-font: 50pt &quot;Nasalization Rg&quot;;</string>
+        <string notr="true">color: #a8a192;
+font: 40pt &quot;Nasalization Rg&quot;;</string>
        </property>
        <property name="text">
         <string>&lt;strong&gt;M.A.R.S&lt;/strong&gt;</string>
@@ -92,7 +94,7 @@ font: 50pt &quot;Nasalization Rg&quot;;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #2E3440;
+        <string notr="true">color: #a8a192;
 font: 10pt &quot;Nasalization Rg&quot;;</string>
        </property>
        <property name="text">
@@ -113,16 +115,17 @@ font: 10pt &quot;Nasalization Rg&quot;;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">QProgressBar {
-	background-color: #2E3440;
+	background-color: #a8a192;
 	color: #000;
 	border-style: none;
-	border-radius: 10px;
+	border-radius: 5px;
 	text-align: center;
 }
 QProgressBar::chunk{
-	border-radius: 10px;
-	background-color: #00dc82;
-}</string>
+	border-radius: 5px;
+	background-color: #c2c1bd;
+}
+</string>
        </property>
        <property name="value">
         <number>24</number>
@@ -147,7 +150,7 @@ QProgressBar::chunk{
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #2E3440;
+        <string notr="true">color: #a8a192;
 font: 12pt &quot;Nasalization Rg&quot;;</string>
        </property>
        <property name="text">
@@ -176,7 +179,7 @@ font: 12pt &quot;Nasalization Rg&quot;;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color:#2E3440;
+        <string notr="true">color: #a8a192;
 font: 10pt &quot;Nasalization Rg&quot;;</string>
        </property>
        <property name="text">
@@ -205,7 +208,7 @@ font: 10pt &quot;Nasalization Rg&quot;;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color:#2E3440;
+        <string notr="true">color:#a8a192;
 font: 10pt &quot;Nasalization Rg&quot;;</string>
        </property>
        <property name="text">

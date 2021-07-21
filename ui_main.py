@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'ui_mainwHDKOg.ui'
+## Form generated from reading UI file 'ui_mainBNrrFB.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.14.1
 ##
@@ -67,7 +67,7 @@ class Ui_MainWindow(object):
         self.menu_butt.setMinimumSize(QSize(0, 40))
         self.menu_butt.setStyleSheet(u"border: 0px solid;\n"
 "border-top-right-radius: 0px;\n"
-"background-color: #0f111e;\n"
+"background-color: #141518;\n"
 "")
         icon = QIcon()
         icon.addFile(u"V2 Icons/menu_4px.png", QSize(), QIcon.Normal, QIcon.Off)
@@ -81,8 +81,9 @@ class Ui_MainWindow(object):
 
         self.frame_40 = QFrame(self.top_bar)
         self.frame_40.setObjectName(u"frame_40")
+        self.frame_40.setCursor(QCursor(Qt.PointingHandCursor))
         self.frame_40.setStyleSheet(u"\n"
-"background-color: #2E3440;")
+"background-color: #474b56;")
         self.frame_40.setFrameShape(QFrame.StyledPanel)
         self.frame_40.setFrameShadow(QFrame.Raised)
         self.frame_40.setLineWidth(0)
@@ -103,6 +104,7 @@ class Ui_MainWindow(object):
         self.btn_minimize.setObjectName(u"btn_minimize")
         self.btn_minimize.setMinimumSize(QSize(20, 20))
         self.btn_minimize.setMaximumSize(QSize(20, 20))
+        self.btn_minimize.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_minimize.setToolTipDuration(1)
         self.btn_minimize.setStyleSheet(u"QPushButton{\n"
 "	background-color: #050505;\n"
@@ -182,7 +184,7 @@ class Ui_MainWindow(object):
         self.Sidebar.setObjectName(u"Sidebar")
         self.Sidebar.setMinimumSize(QSize(50, 0))
         self.Sidebar.setMaximumSize(QSize(50, 200))
-        self.Sidebar.setStyleSheet(u"background-color: #2E3440;")
+        self.Sidebar.setStyleSheet(u"background-color: #474b56;")
         self.Sidebar.setFrameShape(QFrame.NoFrame)
         self.Sidebar.setFrameShadow(QFrame.Raised)
         self.verticalLayout_3 = QVBoxLayout(self.Sidebar)
@@ -196,7 +198,7 @@ class Ui_MainWindow(object):
         self.V2.setCursor(QCursor(Qt.PointingHandCursor))
         self.V2.setStyleSheet(u"QPushButton{\n"
 " 	border: 0px solid;\n"
-"	background-color: #2E3440;\n"
+"	background-color: #474b56;\n"
 "	color: #00dc82;\n"
 "	font-size: 19px;\n"
 "	border-radius: 0px;\n"
@@ -220,7 +222,7 @@ class Ui_MainWindow(object):
         self.Desktop.setCursor(QCursor(Qt.PointingHandCursor))
         self.Desktop.setStyleSheet(u"QPushButton{\n"
 " 	border: 0px solid;\n"
-"	background-color: #2E3440;\n"
+"	background-color: #474b56;\n"
 "	color: #00dc82;\n"
 "	border-radius: 0px;\n"
 "	font-size: 18px;\n"
@@ -249,7 +251,7 @@ class Ui_MainWindow(object):
         self.profile.setCursor(QCursor(Qt.PointingHandCursor))
         self.profile.setStyleSheet(u"QPushButton{\n"
 " 	border: 0px solid;\n"
-"	background-color: #2E3440;\n"
+"	background-color: #474b56;\n"
 "	color: #00dc82;\n"
 "	border-radius: 0px;\n"
 "	font-size: 20px;\n"
@@ -271,6 +273,7 @@ class Ui_MainWindow(object):
 
         self.frame_14 = QFrame(self.frame_left_menu)
         self.frame_14.setObjectName(u"frame_14")
+        self.frame_14.setStyleSheet(u"background-color: #474b56;")
         self.frame_14.setFrameShape(QFrame.StyledPanel)
         self.frame_14.setFrameShadow(QFrame.Raised)
 
@@ -300,7 +303,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_4.setContentsMargins(0, 0, 0, 0)
         self.chat_screem = QFrame(self.v2)
         self.chat_screem.setObjectName(u"chat_screem")
-        self.chat_screem.setStyleSheet(u"background-color: #0f111e\n"
+        self.chat_screem.setStyleSheet(u"background-color: #141518\n"
 ";")
         self.chat_screem.setFrameShape(QFrame.NoFrame)
         self.chat_screem.setFrameShadow(QFrame.Raised)
@@ -314,10 +317,10 @@ class Ui_MainWindow(object):
         self.v2logo.setIconSize(QSize(300, 300))
         self.recomended_tab = QFrame(self.chat_screem)
         self.recomended_tab.setObjectName(u"recomended_tab")
-        self.recomended_tab.setGeometry(QRect(0, 384, 951, 35))
+        self.recomended_tab.setGeometry(QRect(0, 390, 951, 35))
         self.recomended_tab.setMinimumSize(QSize(30, 25))
         self.recomended_tab.setMaximumSize(QSize(16777215, 35))
-        self.recomended_tab.setStyleSheet(u"background-color:#2E3440;\n"
+        self.recomended_tab.setStyleSheet(u"background-color: #474b56;\n"
 "border-radius: 0px")
         self.recomended_tab.setFrameShape(QFrame.NoFrame)
         self.recomended_tab.setFrameShadow(QFrame.Raised)
@@ -472,8 +475,9 @@ class Ui_MainWindow(object):
         self.help_bar_1 = QFrame(self.down_bar)
         self.help_bar_1.setObjectName(u"help_bar_1")
         self.help_bar_1.setMinimumSize(QSize(0, 0))
-        self.help_bar_1.setStyleSheet(u"background-color:#2E3440;\n"
-"border-radius: 0px;")
+        self.help_bar_1.setStyleSheet(u"background-color:#474b56;\n"
+"border-radius: 0px;\n"
+"height: 50px;")
         self.help_bar_1.setFrameShape(QFrame.NoFrame)
         self.help_bar_1.setFrameShadow(QFrame.Raised)
         self.help_bar_1.setLineWidth(0)
@@ -488,11 +492,11 @@ class Ui_MainWindow(object):
         self.mic.setStyleSheet(u"QPushButton{\n"
 "	border: 0 solid;\n"
 "	border-radius: 0px;\n"
-"	background-color: #2E3440;\n"
+"	background-color: #474b56;\n"
 "}\n"
 "\n"
 "QPushButton:hover{\n"
-"	background-color: #0f111e;\n"
+"	background-color: #141518;\n"
 "	border-radius: 5px;\n"
 "}")
         icon4 = QIcon()
@@ -504,8 +508,9 @@ class Ui_MainWindow(object):
 
         self.help_bar_2 = QFrame(self.down_bar)
         self.help_bar_2.setObjectName(u"help_bar_2")
-        self.help_bar_2.setStyleSheet(u"background-color:#2E3440;\n"
-"border-bottom-right-radius: 16px;")
+        self.help_bar_2.setStyleSheet(u"background-color:#474b56;\n"
+"border-bottom-right-radius: 16px;\n"
+"height: 50px;")
         self.help_bar_2.setFrameShape(QFrame.NoFrame)
         self.help_bar_2.setFrameShadow(QFrame.Raised)
 

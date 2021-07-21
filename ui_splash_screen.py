@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'splash_screenmBFUgY.ui'
+## Form generated from reading UI file 'splash_screenutXHLv.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.14.1
 ##
@@ -20,7 +20,7 @@ class Ui_SplashScreen(object):
     def setupUi(self, SplashScreen):
         if SplashScreen.objectName():
             SplashScreen.setObjectName(u"SplashScreen")
-        SplashScreen.resize(680, 400)
+        SplashScreen.resize(700, 400)
         self.centralwidget = QWidget(SplashScreen)
         self.centralwidget.setObjectName(u"centralwidget")
         self.verticalLayout = QVBoxLayout(self.centralwidget)
@@ -30,9 +30,11 @@ class Ui_SplashScreen(object):
         self.dropShadowFrame = QFrame(self.centralwidget)
         self.dropShadowFrame.setObjectName(u"dropShadowFrame")
         self.dropShadowFrame.setStyleSheet(u"QFrame {	\n"
-"	background-color:#0f111e;\n"
-"	border-radius: 10px;\n"
-"}")
+"	background-color:#2d2d31;\n"
+"	border-radius: 5px;\n"
+"}\n"
+"\n"
+"/* #a8a192 */")
         self.dropShadowFrame.setFrameShape(QFrame.StyledPanel)
         self.dropShadowFrame.setFrameShadow(QFrame.Raised)
         self.label_title = QLabel(self.dropShadowFrame)
@@ -40,13 +42,13 @@ class Ui_SplashScreen(object):
         self.label_title.setGeometry(QRect(0, 60, 661, 81))
         font = QFont()
         font.setFamily(u"Nasalization Rg")
-        font.setPointSize(50)
+        font.setPointSize(40)
         font.setBold(False)
         font.setItalic(False)
         font.setWeight(50)
         self.label_title.setFont(font)
-        self.label_title.setStyleSheet(u"color: #00dc82;\n"
-"font: 50pt \"Nasalization Rg\";")
+        self.label_title.setStyleSheet(u"color: #a8a192;\n"
+"font: 40pt \"Nasalization Rg\";")
         self.label_title.setAlignment(Qt.AlignCenter)
         self.label_description = QLabel(self.dropShadowFrame)
         self.label_description.setObjectName(u"label_description")
@@ -58,23 +60,24 @@ class Ui_SplashScreen(object):
         font1.setItalic(False)
         font1.setWeight(50)
         self.label_description.setFont(font1)
-        self.label_description.setStyleSheet(u"color: #2E3440;\n"
+        self.label_description.setStyleSheet(u"color: #a8a192;\n"
 "font: 10pt \"Nasalization Rg\";")
         self.label_description.setAlignment(Qt.AlignCenter)
         self.progressBar = QProgressBar(self.dropShadowFrame)
         self.progressBar.setObjectName(u"progressBar")
         self.progressBar.setGeometry(QRect(60, 230, 561, 23))
         self.progressBar.setStyleSheet(u"QProgressBar {\n"
-"	background-color: #2E3440;\n"
+"	background-color: #a8a192;\n"
 "	color: #000;\n"
 "	border-style: none;\n"
-"	border-radius: 10px;\n"
+"	border-radius: 5px;\n"
 "	text-align: center;\n"
 "}\n"
 "QProgressBar::chunk{\n"
-"	border-radius: 10px;\n"
-"	background-color: #00dc82;\n"
-"}")
+"	border-radius: 5px;\n"
+"	background-color: #c2c1bd;\n"
+"}\n"
+"")
         self.progressBar.setValue(24)
         self.label_loading = QLabel(self.dropShadowFrame)
         self.label_loading.setObjectName(u"label_loading")
@@ -86,21 +89,21 @@ class Ui_SplashScreen(object):
         font2.setItalic(False)
         font2.setWeight(50)
         self.label_loading.setFont(font2)
-        self.label_loading.setStyleSheet(u"color: #2E3440;\n"
+        self.label_loading.setStyleSheet(u"color: #a8a192;\n"
 "font: 12pt \"Nasalization Rg\";")
         self.label_loading.setAlignment(Qt.AlignCenter)
         self.label_credits = QLabel(self.dropShadowFrame)
         self.label_credits.setObjectName(u"label_credits")
         self.label_credits.setGeometry(QRect(30, 330, 621, 21))
         self.label_credits.setFont(font1)
-        self.label_credits.setStyleSheet(u"color:#2E3440;\n"
+        self.label_credits.setStyleSheet(u"color: #a8a192;\n"
 "font: 10pt \"Nasalization Rg\";")
         self.label_credits.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
         self.label_credits_2 = QLabel(self.dropShadowFrame)
         self.label_credits_2.setObjectName(u"label_credits_2")
         self.label_credits_2.setGeometry(QRect(30, 350, 621, 21))
         self.label_credits_2.setFont(font1)
-        self.label_credits_2.setStyleSheet(u"color:#2E3440;\n"
+        self.label_credits_2.setStyleSheet(u"color:#a8a192;\n"
 "font: 10pt \"Nasalization Rg\";")
         self.label_credits_2.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
 
